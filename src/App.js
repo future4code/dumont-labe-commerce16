@@ -1,9 +1,9 @@
-import React from 'react';
-import Nav from './components/nav/nav';
-import Filters from './components/filters/filters';
-import Products from './components/products/products';
-import Checkout from './components/checkout/checkout';
-import styled from 'styled-components';
+import React from "react";
+import Nav from "./components/nav/nav";
+import Filters from "./components/filters/filters";
+import Products from "./components/products/products";
+import Checkout from "./components/checkout/checkout";
+import styled from "styled-components";
 
 const AppContainer = styled.div`
   display: flex-row;
@@ -14,10 +14,10 @@ const AppContainer = styled.div`
 function App() {
   return (
     <AppContainer>
-     <Nav/>
-     <Filters/>
-     <Products/>
-     <Checkout/>
+      <Nav />
+      <Filters />
+      <Products />
+      <Checkout />
     </AppContainer>
   );
 }
