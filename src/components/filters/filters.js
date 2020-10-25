@@ -10,11 +10,6 @@ const FiltersContainer = styled.div`
   align-items: center;
 `;
 
-const ParagraphContainer = styled.p`
-  justify-content: center;
-  align-items: center;
-`;
-
 const InputContainer = styled.label`
   display: flex;
   padding: 0 2vw;
@@ -47,7 +42,7 @@ class Filters extends React.Component {
         </label>
 
         <div>
-          <ParagraphContainer>Resultados obtidos: 4</ParagraphContainer>
+          <p>Resultados obtidos: 4</p>
         </div>
       </FiltersContainer>
     );
